@@ -1,34 +1,32 @@
 import React from 'react';
 import './skills.css';
-import UIDesign from '../../assets/ui-design.png';
-import WebDesign from '../../assets/website-design.png';
-import AppDesign from '../../assets/app-design.png';
+import UIDesign from '../../assets/data.jpg';
+import WebDesign from '../../assets/Troubleshooting.png';
+import AppDesign from '../../assets/TechSales.jpg';
 
 const Skills = () => {
     return (
         <section id='skills'>
-            <span className="skillTitle">What I do</span>
-            <span className="skillDesc">I am a skilled and passionate web designer with experience in creating visually appealing and user-friendly websites. I have a strong understanding of design and a keen eye for detail. I am proficient in HTML, CSS, and JavaScript, as well as design software such as Adobe Photoshop and Illustrator.</span>
+            <span className="skillTitle">Who am I?</span>
+            <span className="skillDesc">A creative problem solver with a passion for designing, planning, and developing innovative solutions. I mostly enjoy working on the analysis side of projects, but I am always open to learning new things<br/>
+⚡ Highly motivated and passionate about learning new technologies. I always look for ways to integrate and share new technologies with others<br />⚡ Very detail-oriented and organized. I love to plan and design to create the best user experience<br />⚡ Enjoy client to client interaction and working in a team environment. I am a great communicator and love to collaborate with others<br />🌟 I love to meet new people, organize hangouts, play sports and do other physical activities! (Running, Ski, Volleyball, Shooting, Camping, Backpacking and Body Building)<br />🌟 I am a training for marathon! (Why-I guess to flex it before my freinds that I am training for Marathon!!)<br />🌟 I am a very outgoing, creative, energetic and active person. I love to brighten up the room, share my honest opinions and make sure everyone is comfortable</span>
             <div className="skillBars">
                 <div className="skillBar">
                     <img src={UIDesign} alt="UIDesign" className="skillBarImg" />
                     <div className="skillBarText">
-                        <h2>UI/UX Design</h2>
-                        <p>This is a demo text, you can write your own content here.</p>
+                        <h2>Data Analysis</h2>
                     </div>
                 </div>
                 <div className="skillBar">
                     <img src={WebDesign} alt="WebDesign" className="skillBarImg" />
                     <div className="skillBarText">
-                        <h2>Website Design</h2>
-                        <p>This demo text can be changed while making the production ready website.</p>
+                        <h2>Troubleshooting</h2>
                     </div>
                 </div>
                 <div className="skillBar">
                     <img src={AppDesign} alt="AppDesign" className="skillBarImg" />
                     <div className="skillBarText">
-                        <h2>App Design</h2>
-                        <p>You can write text related to mobile app development.</p>
+                        <h2>Technical Sales</h2>
                     </div>
                 </div>
             </div>
