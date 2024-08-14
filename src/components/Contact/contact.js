@@ -1,11 +1,11 @@
 import './contact.css';
-import Walmart from '../../assets/walmart.png';
-import Adobe from '../../assets/adobe.png';
-import Microsoft from '../../assets/microsoft.png';
-import Facebook from '../../assets/facebook.png';
+import Interest1 from '../../assets/Interest1.jpeg';
+import Interest2 from '../../assets/Interest2.jpeg';
+import Interest3 from '../../assets/Interest3.jpeg';
+import Interest4 from '../../assets/Interest4.jpeg';
 import facebookIcon from '../../assets/facebook-icon.png';
 import twitterIcon from '../../assets/twitter.png';
-import youtubeIcon from '../../assets/youtube.png';
+import linkedinIcon from '../../assets/linkedin.png';
 import instagramIcon from '../../assets/instagram.png';
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
@@ -29,16 +29,16 @@ const Contact = () => {
     return (
         <div id='contactPage'>
             <div id="clients">
-                <h1 className="contactPageTitle">My clients</h1>
+                <h1 className="contactPageTitle">Me outside Work</h1>
                 <span className="clientDesc">
                     I have had the opportunity to work with a diverse group of companies. 
                     Some of the notable companies I have worked with includes
                 </span>
                 <div className="clientImgs">
-                    <img src={Walmart} alt="Client" className="clientImg" />
-                    <img src={Adobe} alt="Client" className="clientImg" />
-                    <img src={Microsoft} alt="Client" className="clientImg" />
-                    <img src={Facebook} alt="Client" className="clientImg" />                   
+                    <img src={Interest1} alt="Client" className="clientImg" />
+                    <img src={Interest2} alt="Client" className="clientImg" />
+                    <img src={Interest3} alt="Client" className="clientImg" />
+                    <img src={Interest4} alt="Client" className="clientImg" />                   
                 </div>
             </div>
             <div id="contact">
@@ -52,7 +52,9 @@ const Contact = () => {
                     <div className="links">
                         <img src={facebookIcon} alt="Facebook" className="link" />
                         <img src={twitterIcon} alt="Twitter" className="link" />
-                        <img src={youtubeIcon} alt="YouTube" className="link" />
+                        <a href="https://www.linkedin.com/in/simratkbhangu/">
+                        <img src={linkedinIcon} alt="LinkedIn" className="link" />
+                        </a>
                         <img src={instagramIcon} alt="Instagram" className="link" />
                     </div>
                 </form>
